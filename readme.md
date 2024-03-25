@@ -1,14 +1,9 @@
-- Definir l'architecture de l'html (voir le css en second temps)
-- Verifier le fonctionnement de Fetch vu avec kevin sur l'E-Commerce pour comprendre comment rajouter / enlever des elements
-- Pour ca faire le CMD avec les bon liens, je prévois une classe globale avec dedans :
-  - Titre de la tâche
-  - Description breve de la tâche
-  - Date d'écheance max
-  - Prioritée de la tâche
-  - Catégorie de la tâche
+README DU BRIEF TODOLIST
 
-Première grosse étape, ajouter une tâche
+Le Login/Register fonctionne.
 
-Deuxième, arriver a la supprimer
-
-Troisième, arriver a la modifier
+l'ajout de task se fait en base de données puis s'ajoute dans la page.
+Lors de la connexion on récupere bien les tâches existantes de l'utilisateur.
+La suppression des tâches fonctionne autant sur la session que sur la BDD.
+La modification du profil n'est pas fonctionnel
+La modification des tâches n'est pas fonctionnel
